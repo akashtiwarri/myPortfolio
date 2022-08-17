@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "coursename":"B.Tech in Information Technology",
+        "courseyear":"2017-2021",
+        "institute":"MAKAUT University",
+        "grade":"77% Percentage"
+    },
+    {
+        "id":2,
+        "coursename": "HIGHER SECONDARY EDUCATION",
+        "courseyear":"2014-2016",
+        "institute":"PT. DDU College",
+        "grade":"54% Percentage"
+    },
+    {
+        "id":3,
+        "coursename":"MATRICULATION",
+        "courseyear":"2013-2014",
+        "institute":"High School Pipra",
+        "grade":"58% Percentage"
+    }
+]
