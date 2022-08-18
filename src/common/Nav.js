@@ -4,7 +4,7 @@ import Home from "../assets/img/home.png";
 import About from "../assets/img/about.png";
 import Contact from "../assets/img/contact.png";
 import Education from "../assets/img/education.png";
-// import Projects from "../assets/img/portfolio.png";
+import Projects from "../assets/img/portfolio.png";
 import Services from "../assets/img/services.png";
 import Work from "../assets/img/work.png";
 import Jsprojects from "../assets/img/jsprojects.png";
@@ -24,32 +24,37 @@ const Nav = () => {
           </Link>
           <Link to="/about">
             <li data-aos="zoom-in">
-              <img src={About} alt="about" title="About"/>
+              <img src={About} alt="about" />
             </li>
           </Link>
           <Link to="/services">
             <li data-aos="zoom-in">
-              <img src={Services} alt="services" title="Services"/>
+              <img src={Services} alt="services" />
             </li>
           </Link>
           <Link to="/work">
             <li data-aos="zoom-in">
-              <img src={Work} alt="work" title="Work"/>
+              <img src={Work} alt="work" />
             </li>
           </Link>
           <Link to="/education">
             <li data-aos="zoom-in">
-              <img src={Education} alt="education" title="Education"/>
+              <img src={Education} alt="education" />
             </li>
           </Link>
           <Link to="/projects">
             <li data-aos="zoom-in">
-              <img src={Jsprojects} alt="jsprojects" title="Projects"/>
+              <img src={Jsprojects} alt="jsprojects" />
+            </li>
+          </Link>
+          <Link to="/portfolio">
+            <li data-aos="zoom-in">
+              <img src={Projects} alt="portfolio" />
             </li>
           </Link>
           <Link to="/contact">
             <li data-aos="zoom-in">
-              <img src={Contact} alt="contact" title="Contact"/>
+              <img src={Contact} alt="contact" />
             </li>
           </Link>
         </ul>
@@ -57,7 +62,7 @@ const Nav = () => {
 
       <div id="navigation-mob">
         <h1 data-aos="fade-in">
-          <Link to="/myportfolio">Akash Tiwari</Link>
+          <Link to="/myportfolio">Pooja Garva</Link>
         </h1>
         <i
           data-aos="fade-in"
