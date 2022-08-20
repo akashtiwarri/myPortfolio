@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [visible, setVisible] = useState(false);
-
+  const handleClick = () => setVisible(!visible)
   return (
     <div>
       <div id="navigation">
@@ -62,7 +62,7 @@ const Nav = () => {
 
       <div id="navigation-mob">
         <h1 data-aos="fade-in">
-          <Link to="/myportfolio">Akash Tiwari</Link>
+          <Link to="/myportfolio" >Akash Tiwari</Link>
         </h1>
         <i
           data-aos="fade-in"
@@ -75,28 +75,28 @@ const Nav = () => {
             data-aos="slide-down"
             data-aos-duration="700"
           >
-            <Link to="/myportfolio">
+            <Link to="/myportfolio" onClick={handleClick}>
               <li>Home</li>
             </Link>
-            <Link to="/about">
+            <Link to="/about" onClick={handleClick}>
               <li>About</li>
             </Link>
-            <Link to="/services">
+            <Link to="/services" onClick={handleClick}>
               <li>What I Do</li>
             </Link>
-            <Link to="/work">
+            <Link to="/work" onClick={handleClick}>
               <li>Work</li>
             </Link>
-            <Link to="/education">
+            <Link to="/education" onClick={handleClick}>
               <li>Education</li>
             </Link>
-            <Link to="/projects">
+            <Link to="/projects" onClick={handleClick}>
               <li>Projects</li>
             </Link>
-            <Link to="/portfolio">
+            <Link to="/portfolio" onClick={handleClick}>
               <li>Portfolio</li>
             </Link>
-            <Link to="/contact">
+            <Link to="/contact" onClick={handleClick}>
               <li>Contact</li>
             </Link>
           </ul>
