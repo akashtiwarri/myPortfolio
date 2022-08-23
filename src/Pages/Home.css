@@ -27,8 +27,8 @@
   background-color: #000;
   position: absolute;
   width: 90%;
-  height: 101vh;
-  top: -10%;
+  height: 110vh;
+  top: -20%;
   left: -10vh;
   z-index: 1;
 }

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [visible, setVisible] = useState(false);
-  const handleClick = () => setVisible(!visible)
+  const handleClick = () => setVisible(!visible);
   return (
     <div>
       <div id="navigation">

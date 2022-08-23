@@ -1,14 +1,14 @@
-import React from "react";
-import "./Education.css";
-import services from "../Data/Education.json";
+import React from 'react';
+import './Education.css';
+import services from '../Data/Education.json';
 
 const Education = () => {
   return (
-    <div id="education" >
+    <div id="educationn">
       <div className="container">
         <div className="row">
           <div className="col-sm-11 offset-sm-1">
-            <ul className="nav nav-tabs"data-aos="fade-down">
+            <ul className="nav nav-tabs" data-aos="fade-down">
               <li className="nav-item">
                 <a
                   className="nav-link active"
@@ -60,8 +60,7 @@ const Education = () => {
                           - Bootstrap
                           <br />
                           - SASS
-                          <br />
-                          - Customize Themes
+                          <br />- Customize Themes
                         </h6>
                       </div>
                     </div>
