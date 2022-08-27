@@ -64,7 +64,6 @@
 }
 
 #home .socialmedia::after {
-  content: "";
   /* border-bottom: 3px solid #000; */
   position: absolute;
   width: 150%;

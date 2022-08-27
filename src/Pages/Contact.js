@@ -7,27 +7,27 @@ const Contact = () => {
   const [done, setDone] = useState(false);
   const formRef = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_qt6ynin",
-        "template_fti9rjh",
-        formRef.current,
-        "user_GN17fKoDZSyAlOwwLj3LN"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_qt6ynin",
+  //       "template_fti9rjh",
+  //       formRef.current,
+  //       "user_GN17fKoDZSyAlOwwLj3LN"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         setDone(true);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  //   e.target.reset();
+  // };
 
   return (
     <div id="contact">
@@ -36,7 +36,9 @@ const Contact = () => {
           <div className="col-sm-6 offset-sm-3">
             <h2 data-aos="fade-up">Contact</h2>
             <br />
-            <form onSubmit={sendEmail} ref={formRef}>
+            <form action="https://formspree.io/f/mjvzkaqp" method="POST" ref={formRef} onClick={(e)=> {
+              e.target.reset()
+            }}>
               {/* <form ref={formRef}> */}
               <input
                 data-aos="fade-up"
