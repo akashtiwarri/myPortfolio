@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import profileimg from "../assets/img/profileimg3.jpg";
-import Pdf from "../assets/pdf/Resume.pdf";
+import Pdf from "../assets/pdf/Resume (1).pdf";
 import { Link } from "react-router-dom";
 import Linkedinicon from "../assets/img/socialicons/linkedin.png";
 import Instagramicon from "../assets/img/socialicons/instagram.png";

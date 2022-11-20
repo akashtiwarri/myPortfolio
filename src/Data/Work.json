@@ -3,15 +3,22 @@
         "id":1,
         "year":"Feb, 2022 - Aug, 2022",
         "companyname":"Mobmaxime Pvt. Ltd.",
-        "position":"Jr. ReactJs Developer",
+        "position":"Jr. ReactJs Intern",
         "desc":"- HTML, CSS, Bootstrap, ReactJS, Sass \n - Increase performance & maintained website UI Bugs"
     },
     {
         "id":2,
         "year":"Aug, 2022 - Nov, 2022",
         "companyname":"Mobmaxime Pvt. Ltd.",
+        "position":"Jr. Front-end Developer",
+        "desc":"- HTML, CSS, Bootstrap, ReactJS \n - Project Name \n - The Dark Zone"
+    },
+    {
+        "id":3,
+        "year":"Nov, 2022 - To Present",
+        "companyname":"Mobmaxime Pvt. Ltd.",
         "position":"Front-end Developer",
-        "desc":"- HTML, CSS, Bootstrap, ReactJS \n - Building Website from scratch \n - I'll add details of this project soon"
+        "desc":"- HTML, CSS, Bootstrap, ReactJS \n - Building Website from scratch \n - Melbeez Admin Portal"
     }
 
 ]
