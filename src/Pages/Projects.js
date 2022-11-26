@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="col-sm-11 offset-sm-1">
             <div className="row">
               <div className="col-sm-12">
-                <h2>Portfolio</h2>
+                <h2>Portfolio <span style={{color: "red"}}><p>(these images are randome I'll update them soon) </p></span></h2>
                 <br />
               </div>
               <div className="col-sm-4">
