@@ -1,33 +1,34 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
-import emailjs from "emailjs-com";
-// import "../common/ToastJs";
+import emailjs from 'emailjs-com';
+// import { useRef } from 'react';
 
 const Contact = () => {
   const [done, setDone] = useState(false);
-  const formRef = useRef();
+  // const formRef = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const form = useRef();
 
-  //   emailjs
-  //     .sendForm(
-  //       "service_qt6ynin",
-  //       "template_fti9rjh",
-  //       formRef.current,
-  //       "user_GN17fKoDZSyAlOwwLj3LN"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         setDone(true);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  //   e.target.reset();
-  // };
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_s5cqa8n",
+        "template_9hc76bj",
+        form.current,
+        "A_3rH16fbsweeeqAM"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
 
   return (
     <div id="contact">
@@ -36,10 +37,7 @@ const Contact = () => {
           <div className="col-sm-6 offset-sm-3">
             <h2 data-aos="fade-up">Contact</h2>
             <br />
-            <form action="https://formspree.io/f/mjvzkaqp" method="POST" ref={formRef} onClick={(e)=> {
-              e.target.reset()
-            }}>
-              {/* <form ref={formRef}> */}
+            <form method="POST" ref={form} onSubmit={sendEmail}>
               <input
                 data-aos="fade-up"
                 type="text"
