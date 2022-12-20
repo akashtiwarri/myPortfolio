@@ -42,16 +42,16 @@ const Nav = () => {
               <img src={Education} alt="education" />
             </li>
           </Link>
-          <Link to="/projects" title="Projects">
+          {/* <Link to="/projects" title="Projects">
             <li data-aos="zoom-in">
               <img src={Jsprojects} alt="jsprojects" />
             </li>
-          </Link>
-          <Link to="/portfolio" title="Portfolio">
+          </Link> */}
+          {/* <Link to="/portfolio" title="Portfolio">
             <li data-aos="zoom-in">
               <img src={Projects} alt="portfolio" />
             </li>
-          </Link>
+          </Link> */}
           <Link to="/contact" title="Contact">
             <li data-aos="zoom-in">
               <img src={Contact} alt="contact" />
