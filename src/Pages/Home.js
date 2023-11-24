@@ -23,7 +23,7 @@ const Home = () => {
               />
               <div className="socialmedia">
                 <a
-                  href="https://www.linkedin.com/in/akash-tiwari-3686b7215"
+                  href="https://www.linkedin.com/in/akash-tiwari-%E2%9A%A1-3686b7215/"
                   target="_blank"
                   rel="noreferrer"
                   title = "LinkedIn"
