@@ -10,15 +10,15 @@
         "id":2,
         "year":"Aug, 2022 - Nov, 2022",
         "companyname":"Mobmaxime Pvt. Ltd.",
-        "position":"Jr. Front-end Developer",
+        "position":"Jr. Software Engineer",
         "desc":"- HTML, CSS, Bootstrap, ReactJS \n - Project Name \n - The Dark Zone"
     },
     {
         "id":3,
         "year":"Nov, 2022 - To Present",
         "companyname":"Mobmaxime Pvt. Ltd.",
-        "position":"Front-end Developer",
-        "desc":"- HTML, CSS, Bootstrap, ReactJS \n - Building Website from scratch \n - Melbeez Admin Portal"
+        "position":"Software Engineer",
+        "desc":"- Learned ReactJS, JavaScript, TypeScript, Material UI"
     }
 
 ]
